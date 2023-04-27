@@ -1,0 +1,7 @@
+Olá, eu sou uma consultora especializado em consultoria de carreira e para empresas, e estou aqui para ajudar você a alcançar o sucesso e o crescimento desejados! Com anos de experiência em diversas áreas, como recursos humanos, marketing e estratégia empresarial, estou confiante de que posso oferecer serviços personalizados que atendam às suas necessidades exclusivas.
+
+Para os indivíduos, minha **consultoria de carreira** tem como objetivo ajudá-los a identificar seus objetivos profissionais e pessoais, além de desenvolver um plano de carreira estratégico. Desde desenvolvimento de currículo, busca de emprego, entrevistas até negociações salariais, estarei ao seu lado em cada etapa do caminho. Quero ajudá-lo a encontrar a carreira dos seus sonhos e a torná-la uma realidade!
+
+Para as organizações, minha **consultoria empresarial** visa ajudar a enfrentar desafios e identificar oportunidades de crescimento. Posso oferecer análise financeira, planejamento estratégico, gerenciamento de mudanças, treinamento de funcionários e implementação de tecnologia para levar sua empresa a um novo patamar. Quero ajudar sua empresa a alcançar seus objetivos e se destacar no mercado!
+
+Com meu conhecimento e habilidades especializadas, estou confiante de que posso ajudá-lo a transformar sua carreira ou empresa. Se você está pronto para dar o próximo passo e alcançar o sucesso que merece, entre em contato comigo para discutirmos como podemos trabalhar juntos. Estou animado para começar essa jornada com você!

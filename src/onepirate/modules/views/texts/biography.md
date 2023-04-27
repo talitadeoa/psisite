@@ -1,0 +1,1 @@
+Olá! Sou Talita, psicóloga e consultora graduada na Universidade Potiguar. Eu tenho uma paixão especial pela arteterapia, musicoterapia e pelo desenvolvimento humano. Acredito que a combinação de diferentes abordagens terapêuticas pode levar a resultados incríveis na melhoria do bem-estar e qualidade de vida das pessoas. 

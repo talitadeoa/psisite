@@ -1,0 +1,3 @@
+A arteterapia é uma prática terapêutica que utiliza a expressão artística para promover a cura emocional e o bem-estar mental. Por meio da criação de arte, como pintura, desenho, escultura ou colagem, os pacientes são encorajados a explorar suas emoções, sentimentos e pensamentos, de uma forma não verbal e criativa.
+
+A arteterapia pode ser benéfica para pessoas de todas as idades e em diferentes estágios da vida, ajudando a aliviar o estresse, a ansiedade, a depressão e outros problemas emocionais. Ela pode ajudar a melhorar a autoestima, a autoexpressão, a comunicação e a capacidade de resolver problemas, além de ser uma forma divertida e relaxante de se expressar.
