@@ -30,7 +30,7 @@ function AppAppBar() {
             {"Talita Araújo"}
           </Link>
           <Box sx={{ flex: 1, display: "flex", justifyContent: "flex-end" }}>
-            {location.pathname === "/contattami/" ? (
+            {location.pathname === "/contato/" ? (
               <Link
                 variant="h6"
                 underline="none"
@@ -45,7 +45,7 @@ function AppAppBar() {
                 variant="h6"
                 underline="none"
                 component={RouterLink}
-                to="/contattami/"
+                to="/contato/"
                 sx={{ ...rightLink, color: "secondary.main" }}
               >
                 {"Contato"}
