@@ -41,7 +41,7 @@ function Contact() {
                   <EmailRounded />
                 </Avatar>
               </ListItemAvatar>
-              <ListItemText primary="Envie um E-mail" secondary="talitadeoa@gmail.com" />
+              <ListItemText primary="Envie um e-mail" secondary="talitadeoa@gmail.com" />
             </ListItemButton>
           </ListItem>
           <Divider variant="inset" component="li" />
