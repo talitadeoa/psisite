@@ -4,20 +4,20 @@
     "keywords": "psicologa, musicoterapia, musicoterapeuta, psicologia, arteterapia, ateterapeuta, abordagem integrada, arte, terapia de esquemas, consultoria criativa, inteligencia emocional, consulta psicologica",
     "author": "Talita Araujo",
     "openGraph": {
-        "url": "https://www.deoa.it/",
+        "url": "https://www.talitadeoa.com.br/",
         "title": "Talita Araujo · Psicologa Musicoterapeuta",
         "description": "",
-        "image": "https://www.deoa.it/profile.JPG",
+        "image": "https://www.talitadeoa.com.br/profile.JPG",
         "site_name": "Talita Araujo · Psicologa",
         "type": "website",
         "locale": "it_IT"
     },
     "twitter": {
-        "image": "https://www.deoa.it/profile.JPG",
-        "url": "https://www.deoa.it/",
+        "image": "https://www.talitadeoa.com.br/profile.JPG",
+        "url": "https://www.talitadeoa.com.br/",
         "card": "summary_large_image",
         "title": "Talita Araujo · Psicologa Musicoterapeuta",
-        "description": "Como psicóloga e consultora em musicoterapia e arteterapia, ofereço consultoria de arte e atendimento personalizado para ajudar a melhorar sua inteligência emocional e qualidade de vida, focando em atender às suas necessidades individuais"
+        "description": "Como psicóloga e consultora em musicoterapia e arteterapia, ofereço consultoria de arte e atendimento personalizado para ajudar a melhorar seu bem-estar, inteligência emocional e qualidade de vida, focada em atender às suas individualidades."
     },
     "favicon": "icons/favicon.ico",
     "icons": [{
