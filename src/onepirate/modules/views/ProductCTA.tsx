@@ -24,7 +24,6 @@ const number = {
 };
 
 function ProductCTA() {
-  const [position/*, setPosition*/] = React.useState<any>([44.46917165365001, 11.40598871506287]);
 
   return (
     <Container component="section" sx={{ mt: 10, display: "flex" }}>

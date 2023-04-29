@@ -30,7 +30,7 @@ const iconStyle = {
 };
 
 export default function AppFooter() {
-  const myPolicy = 70817588
+
 
   return (
     <Typography
