@@ -6,6 +6,7 @@ import Contact from "./onepirate/Contact";
 import { ParallaxProvider } from 'react-scroll-parallax';
 import Articles from "./onepirate/Articles";
 import NotFound404 from "./onepirate/404";
+import Floating from "./onepirate/modules/components/Floating";
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
     <React.Fragment>
       <ParallaxProvider>
         <BrowserRouter>
+        <Floating>
           <Routes>
             <Route path="/contato" element={<Contact />} />
             <Route path="/blog/*" element={<Articles />} />
@@ -20,6 +22,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="*" element={<NotFound404 />} />
           </Routes>
+          </Floating>
         </BrowserRouter>
       </ParallaxProvider>
     </React.Fragment>
