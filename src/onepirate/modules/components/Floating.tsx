@@ -12,8 +12,8 @@ const Floating: React.FC<LayoutProps> = ({ children }) => {
       <WhatsappButton         
         countryCode="55"
         animated
-        phoneNumber="+5511987654321"
-        message="Olá! Estou te enviando uma mensagem pelo meu site."/>
+        phoneNumber="+85998026288"
+        message="Olá! Vim pelo seu site e gostaria de saber mais informações sobre seu trabalho como psicóloga"/>
     </div>
   );
 }
