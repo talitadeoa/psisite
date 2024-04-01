@@ -1,18 +1,15 @@
 import React from 'react';
-import ReactWhatsappButton from "react-whatsapp-button";
+import WhatsappButton from 'react-whatsapp-button';
 
-interface LayoutProps {
-  children: React.ReactNode;
-}
-
-const Floating: React.FC<LayoutProps> = ({ children }) => {
+const Floating: React.FC = () => {
   return (
-    <div className="App">
-      <ReactWhatsappButton
+    <div>
+      <h1>Meu Site React</h1>
+      <WhatsappButton
         countryCode="55"
-        phoneNumber="84998026288"
         animated
-        message="Olá, vim pelo seu site e gostaria de saber mais informações sobre seu trabalho como psicóloga"
+        phoneNumber="+5511987654321"
+        message="Olá! Estou te enviando uma mensagem pelo meu site."
       />
     </div>
   );
