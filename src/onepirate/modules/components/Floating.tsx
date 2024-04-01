@@ -13,7 +13,7 @@ const Floating: React.FC<LayoutProps> = ({ children }) => {
         animated
         countryCode="55"
         phoneNumber="84998026288"
-        message="Olá! Vim pelo seu site e gostaria de saber mais informações sobre seu trabalho como psicóloga"/>
+        message="Olá! Vim pelo seu site e gostaria de mais informações sobre seu trabalho como psicóloga"/>
     </div>
   );
 }
