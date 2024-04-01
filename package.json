@@ -22,10 +22,12 @@
         "react-router-dom": "^6.3.0",
         "react-scripts": "^5.0.1",
         "react-scroll-parallax": "^3.1.0",
+        "react-slick": "^0.30.2",
         "react-whatsapp-button": "^2.0.0",
         "react-whatsapp-widget": "^2.2.0",
         "rehype-raw": "^6.1.1",
         "remark-gfm": "^3.0.1",
+        "slick-carousel": "^1.8.1",
         "typescript": "^4.6.4"
     },
     "scripts": {
@@ -47,7 +49,8 @@
     ],
     "devDependencies": {
         "@types/react-dom": "^18.0.3",
-        "@types/react-router-dom": "^5.1.5"
+        "@types/react-router-dom": "^5.1.5",
+        "@types/react-slick": "^0.23.13"
     },
     "resolutions": {
         "selfsigned": "^1.10.8"
