@@ -1,5 +1,5 @@
 import React from 'react';
-import { FloatingWhatsApp } from 'react-floating-whatsapp';
+import ReactWhatsappButton from "react-whatsapp-button";
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -7,9 +7,13 @@ interface LayoutProps {
 
 const Floating: React.FC<LayoutProps> = ({ children }) => {
   return (
-    <div>
-      {children}
-      <FloatingWhatsApp phoneNumber="5584998026288" accountName="Talita" />
+    <div className="App">
+      <ReactWhatsappButton
+        countryCode="51"
+        phoneNumber="987654321"
+        animated
+        message="Olá, vim pelo seu site e gostaria de saber mais informações sobre seu trabalho como psicóloga"
+      />
     </div>
   );
 }
