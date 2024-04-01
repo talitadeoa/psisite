@@ -10,9 +10,9 @@ const Floating: React.FC<LayoutProps> = ({ children }) => {
     <div>
       {children}
       <WhatsappButton         
-        countryCode="55"
         animated
-        phoneNumber="+84998026288"
+        countryCode="55"
+        phoneNumber="84998026288"
         message="Olá! Vim pelo seu site e gostaria de saber mais informações sobre seu trabalho como psicóloga"/>
     </div>
   );
