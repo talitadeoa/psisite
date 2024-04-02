@@ -14,6 +14,7 @@ const Carousel: React.FC<CarouselProps> = ({ slides }) => {
     width: '720px', // Largura do slide
     height: '1080px', // Altura do slide
     margin: '0 auto', // Centraliza o slide horizontalmente
+    // Outros estilos opcionais
   };
 
   const settings = {
@@ -44,7 +45,7 @@ const Carousel: React.FC<CarouselProps> = ({ slides }) => {
   return (
     <Slider {...settings}>
       {slides.map((slide, index) => (
-        <div key={index} style={slideStyle}>{slide}</div>
+        <div key={index} style={slideStyle}>{slide}</div> 
       ))}
     </Slider>
   );
