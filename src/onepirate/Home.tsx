@@ -9,6 +9,7 @@ import withRoot from "./modules/withRoot";
 import Carousel from "./modules/views/Carousel"; 
 
 function Index() {
+  const Index: React.FC = () => {
   const slides = [
     <div key="1">Slide 1</div>,
     <div key="2">Slide 2</div>,
@@ -22,7 +23,9 @@ function Index() {
       <ProductHero />
       <ProductValues />
       <ProductHowItWorks />
-      <Carousel slides={slides} />
+      <div style={carouselStyle}>
+        <Carousel slides={slides} />
+      </div>
       <ProductCTA />
       <ProductSmokingHero />
       <AppFooter />

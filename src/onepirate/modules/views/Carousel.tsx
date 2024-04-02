@@ -17,6 +17,8 @@ const Carousel: React.FC<CarouselProps> = ({ slides }) => {
     // Outros estilos opcionais
   };
 
+
+
   const settings = {
     dots: true,
     infinite: true,
