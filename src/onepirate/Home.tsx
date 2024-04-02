@@ -9,23 +9,12 @@ import withRoot from "./modules/withRoot";
 import Carousel from "./modules/views/Carousel"; 
 
 function Index() {
-  const Index: React.FC = () => {
-  const slides = [
-    <div key="1">Slide 1</div>,
-    <div key="2">Slide 2</div>,
-    <div key="3">Slide 3</div>,
-    <div key="4">Slide 3</div>,
-    // Adicione mais slides conforme necessário
-  ];
 
   return (
     <React.Fragment>
       <ProductHero />
       <ProductValues />
       <ProductHowItWorks />
-      <div style={carouselStyle}>
-        <Carousel slides={slides} />
-      </div>
       <ProductCTA />
       <ProductSmokingHero />
       <AppFooter />
