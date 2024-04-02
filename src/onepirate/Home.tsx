@@ -6,8 +6,10 @@ import ProductValues from "./modules/views/ProductValues";
 import ProductHowItWorks from "./modules/views/ProductHowItWorks";
 import ProductCTA from "./modules/views/ProductCTA";
 import withRoot from "./modules/withRoot";
+import Carousel from "./modules/views/Carousel"; 
 
 function Index() {
+
   return (
     <React.Fragment>
       <ProductHero />
