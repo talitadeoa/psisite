@@ -8,7 +8,7 @@ const TextCarousel: React.FC = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 1,
+    slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
@@ -16,7 +16,7 @@ const TextCarousel: React.FC = () => {
       {
         breakpoint: 480, // Tamanho da tela para dispositivos móveis
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2,
           slidesToScroll: 1,
           dots: true,
         },
@@ -32,7 +32,7 @@ const TextCarousel: React.FC = () => {
       {
         breakpoint: 1024, // Tamanho da tela para desktops
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 3,
           slidesToScroll: 1,
           dots: true,
         },
@@ -42,7 +42,7 @@ const TextCarousel: React.FC = () => {
 
 
   const sliderContainerStyle = {
-    margin: '0 50px', // Adicione a margem desejada aqui
+    margin: '0 20px', // Adicione a margem desejada aqui
   };
 
   const slideStyle = {
