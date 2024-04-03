@@ -1,6 +1,5 @@
 import React from 'react';
 import { Collapse } from 'antd';
-import 'antd/dist/antd.css';
 
 interface FAQItem {
   question: string;
