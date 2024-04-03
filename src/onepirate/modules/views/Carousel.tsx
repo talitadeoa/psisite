@@ -8,7 +8,7 @@ const TextCarousel: React.FC = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 1,
+    slidesToShow: 2,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
@@ -16,7 +16,7 @@ const TextCarousel: React.FC = () => {
       {
         breakpoint: 480, // Tamanho da tela para dispositivos móveis
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
           slidesToScroll: 1,
           dots: true,
           autoplay: true
