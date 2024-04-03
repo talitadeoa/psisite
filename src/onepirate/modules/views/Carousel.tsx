@@ -8,7 +8,7 @@ const TextCarousel: React.FC = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 1,
+    slidesToShow: 2,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
@@ -57,7 +57,7 @@ const TextCarousel: React.FC = () => {
 
   
   return (
-    <div style={{ margin: '10px auto', maxWidth: '1024px' }}>
+    <div style={{ margin: '75px auto', maxWidth: '1024px' }}>
          <div style={sliderContainerStyle}>
       <Slider {...settings}>
         <div>
