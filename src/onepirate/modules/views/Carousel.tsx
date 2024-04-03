@@ -43,8 +43,8 @@ const TextCarousel: React.FC = () => {
   const slideStyle = {
     width: '100%',
     margin: '0 auto',
-    padding: '20px',
-    borderRadius: '10px',
+    padding: '100px',
+    borderRadius: '30px',
     background: '#f0f0f0',
   };
 
