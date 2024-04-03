@@ -46,6 +46,7 @@ const TextCarousel: React.FC = () => {
     padding: '100px',
     borderRadius: '30px',
     background: '#f0f0f0',
+    marginRight: '20px'
   };
 
   return (
