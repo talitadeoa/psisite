@@ -2,6 +2,11 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import Typography from "../components/Typography";
+
+<Typography variant="h4" marked="center" component="h2" sx={{ mb: 14 }}>
+Depoimentos
+</Typography>
 
 const TextCarousel: React.FC = () => {
   const settings = {
