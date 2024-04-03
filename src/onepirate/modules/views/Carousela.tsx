@@ -53,7 +53,7 @@ function Carousela() {
         }}
       >
         <Typography variant="h4" marked="center" component="h2" sx={{ mb: 14 }}>
-          Depoimentos?
+          Depoimentos
         </Typography>
         <div>
           <Grid container spacing={5}>
