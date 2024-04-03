@@ -9,13 +9,13 @@ import Markdown from "../components/Markdown";
 import { useEffect, useState } from "react";
 import { Parallax } from "react-scroll-parallax";
 import { isMobile } from 'react-device-detect';
-import Image from 'mui-image'
+import Image from 'mui-image';
 
 
 const number = {
   fontSize: 24,
   fontFamily: "default",
-  color: "secondary.main",
+  color: "#ffffff",
   fontWeight: "medium",
 };
 
@@ -29,7 +29,7 @@ function Carousela() {
   return (
     <Box
       component="section"
-      sx={{ display: "flex", bgcolor: "secondary.light", overflow: "hidden" }}
+      sx={{ display: "flex", bgcolor: "#ffffff", overflow: "hidden" }}
     >
       <Container
         sx={{
@@ -60,39 +60,11 @@ function Carousela() {
      
             </Grid>
             <Grid item xs={12} md={6}>
-              <Markdown>{markdown}</Markdown>
             </Grid>
           </Grid>
         </div>
-        {isMobile ? (
-          <Parallax
-            translateX={[`${handWidth}px`, `${handWidth - (window.innerWidth * handPercentageOffset)}px`]}
-            scale={[0.55, 0.65]}
-            rotate={[-80, -90]}
-            easing="easeInOutCubic"
-          >
-   
-          </Parallax>
-        ) : null}
+       
       </Container>
-      {isMobile ? null : (
-        <>
-          <Parallax
-            translateX={[`-${window.innerWidth + 80}px`, `-${window.innerWidth - 150}px`]}
-            scale={[0.45, 0.65]}
-            rotate={[-180, 0]}
-            easing="easeInOutQuint"
-          > 
-          </Parallax>
-          <Parallax
-            translateX={['300px', '-100px']}
-            scale={[0.55, 0.65]}
-            rotate={[-80, -90]}
-            easing="easeInOutCubic"
-          >
-          </Parallax>
-        </>
-      )}
     </Box>
   );
 }
