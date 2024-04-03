@@ -95,6 +95,8 @@ const TextCarousel: React.FC = () => {
     >
       <Container
         sx={{
+          mt: 10,
+          mb: 0,
           position: "relative",
           display: "flex",
           flexDirection: "column",
