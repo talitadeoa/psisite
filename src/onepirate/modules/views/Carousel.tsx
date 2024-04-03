@@ -45,12 +45,12 @@ const TextCarousel: React.FC = () => {
 
 
   const sliderContainerStyle = {
-    margin: '0 50px', // Adicione a margem desejada aqui
+    margin: '0 150px', // Adicione a margem desejada aqui
   };
 
   const slideStyle = {
     width: '100%',
-    margin: '100 auto',
+    margin: '10 auto',
     padding: '60px',
     borderRadius: '30px',
     background: '#f0f0f0',
