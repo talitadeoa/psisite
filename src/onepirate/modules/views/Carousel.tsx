@@ -103,7 +103,7 @@ const TextCarousel: React.FC = () => {
           alignItems: "center",
         }}
       >
-        <Typography variant="h4" marked="center" component="h2" sx={{ mb: 5 }}>
+        <Typography variant="h4" marked="center" component="h2" sx={{ mb: 0 }}>
         Depoimentos
         </Typography>
       <div style={{ margin: '50px auto', maxWidth: '1024px' }}>
