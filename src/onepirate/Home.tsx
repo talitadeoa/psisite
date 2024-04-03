@@ -15,6 +15,7 @@ function Index() {
       <ProductHero />
       <ProductValues />
       <ProductHowItWorks />
+      <Carousel />
       <ProductCTA />
       <ProductSmokingHero />
       <AppFooter />
