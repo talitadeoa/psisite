@@ -19,6 +19,7 @@ const TextCarousel: React.FC = () => {
           slidesToShow: 1,
           slidesToScroll: 1,
           dots: true,
+          autoplay: true
         },
       },
       {
@@ -27,6 +28,7 @@ const TextCarousel: React.FC = () => {
           slidesToShow: 2,
           slidesToScroll: 1,
           dots: true,
+          autoplay: true
         },
       },
       {
@@ -35,6 +37,7 @@ const TextCarousel: React.FC = () => {
           slidesToShow: 2,
           slidesToScroll: 1,
           dots: true,
+          autoplay: true
         },
       }, // Adicionei a marcação de fechamento aqui
     ],
