@@ -7,6 +7,7 @@ import ProductHowItWorks from "./modules/views/ProductHowItWorks";
 import ProductCTA from "./modules/views/ProductCTA";
 import withRoot from "./modules/withRoot";
 import Carousel from "./modules/views/Carousel"; 
+import Faq from "./modules/views/Faq"; 
 
 function Index() {
 
@@ -17,6 +18,7 @@ function Index() {
       <ProductHowItWorks />
       <Carousel />
       <ProductCTA />
+      <Faq />
       <ProductSmokingHero />
       <AppFooter />
     </React.Fragment>

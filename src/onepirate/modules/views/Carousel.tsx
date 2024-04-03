@@ -99,7 +99,6 @@ const TextCarousel: React.FC = () => {
           mb: 5,
           position: "relative",
           display: "flex",
-          flexDirection: "column",
           alignItems: "center",
         }}
       >
