@@ -16,7 +16,7 @@ const TextCarousel: React.FC = () => {
       {
         breakpoint: 480, // Tamanho da tela para dispositivos móveis
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
           slidesToScroll: 1,
           dots: true,
         },
@@ -51,7 +51,7 @@ const TextCarousel: React.FC = () => {
     padding: '60px',
     borderRadius: '30px',
     background: '#f0f0f0',
-    marginRight: '100px'
+    marginRight: '10px'
   };
   
 
