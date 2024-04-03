@@ -3,6 +3,26 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
+
+ // Componentes de setas personalizadas
+ const PrevArrow = (props: any) => {
+  const { onClick } = props;
+  return (
+    <button className="slick-prev" onClick={onClick}>
+      Previous
+    </button>
+  );
+};
+
+const NextArrow = (props: any) => {
+  const { onClick } = props;
+  return (
+    <button className="slick-next" onClick={onClick}>
+      Next
+    </button>
+  );
+};
+
 const TextCarousel: React.FC = () => {
   const settings = {
     dots: true,
@@ -12,6 +32,7 @@ const TextCarousel: React.FC = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
+    cssEase: 'linear',
     responsive: [
       {
         breakpoint: 480, // Tamanho da tela para dispositivos móveis
@@ -41,6 +62,8 @@ const TextCarousel: React.FC = () => {
         },
       }, // Adicionei a marcação de fechamento aqui
     ],
+    prevArrow: <PrevArrow />,
+    nextArrow: <NextArrow />,
   };
 
 
@@ -54,10 +77,13 @@ const TextCarousel: React.FC = () => {
     padding: '60px',
     borderRadius: '30px',
     background: '#f0f0f0',
-    marginRight: '100px'
+    marginRight: '100px',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    height: '100%',
   };
   
-
   
   return (
     <div style={{ margin: '75px auto', maxWidth: '1024px' }}>
