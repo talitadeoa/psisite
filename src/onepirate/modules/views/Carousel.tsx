@@ -104,7 +104,6 @@ const TextCarousel: React.FC = () => {
         <Typography variant="h4" marked="center" component="h2" sx={{ mb: 14 }}>
         Depoimentos
         </Typography>
-      </Container>
       <div style={{ margin: '75px auto', maxWidth: '1024px' }}>
           <div style={sliderContainerStyle}>
         <Slider {...settings}>
@@ -136,6 +135,7 @@ const TextCarousel: React.FC = () => {
         </Slider>
         </div>
       </div>
+      </Container>
     </Box>
   );
 };
