@@ -95,7 +95,7 @@ const TextCarousel: React.FC = () => {
     >
       <Container
         sx={{
-          mt: 10,
+          mt: 5,
           mb: 0,
           position: "relative",
           display: "flex",
@@ -106,7 +106,7 @@ const TextCarousel: React.FC = () => {
         <Typography variant="h4" marked="center" component="h2" sx={{ mb: 14 }}>
         Depoimentos
         </Typography>
-      <div style={{ margin: '75px auto', maxWidth: '1024px' }}>
+      <div style={{ margin: '50px auto', maxWidth: '1024px' }}>
           <div style={sliderContainerStyle}>
         <Slider {...settings}>
           <div>
