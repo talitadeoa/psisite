@@ -25,17 +25,6 @@ function Carousela() {
   const [handPercentageOffset] = useState(0.9);
 
   // https://github.com/webpack/webpack/issues/6680
-  useEffect(() => {
-    import("./texts/biography.md")
-      .then((content) => fetch(content.default))
-      .then((response) => response.text())
-      .then((responseText) => setMarkdown(responseText));
-
-    function handleResize() {
-      setHandWidth(window.innerWidth * 0.85);
-    }
-    window.addEventListener('resize', handleResize)
-  });
 
   return (
     <Box
