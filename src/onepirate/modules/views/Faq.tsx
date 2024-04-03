@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import './ToggleList.css'; // Estilos CSS do ToggleList
 
 interface FAQItem {
   question: string;
