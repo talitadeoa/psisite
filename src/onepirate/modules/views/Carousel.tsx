@@ -57,7 +57,7 @@ const TextCarousel: React.FC = () => {
 
   
   return (
-    <div style={{ margin: '10px auto', maxWidth: '1024px' }}>
+    <div style={{ margin: '100px auto', maxWidth: '1024px' }}>
          <div style={sliderContainerStyle}>
       <Slider {...settings}>
         <div>
