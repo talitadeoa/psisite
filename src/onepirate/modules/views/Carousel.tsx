@@ -2,11 +2,18 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import { styled } from "@mui/material/styles";
+import Box from "@mui/material/Box";
+import Grid from "@mui/material/Grid";
+import Container from "@mui/material/Container";
 import Typography from "../components/Typography";
+import ButtonBase from "@mui/material/ButtonBase";
+import Markdown from "../components/Markdown";
+import { useEffect, useState } from "react";
+import { Parallax } from "react-scroll-parallax";
+import { isMobile } from 'react-device-detect';
+import Image from 'mui-image'
 
-<Typography variant="h4" marked="center" component="h2" sx={{ mb: 14 }}>
-Depoimentos
-</Typography>
 
 const TextCarousel: React.FC = () => {
   const settings = {
