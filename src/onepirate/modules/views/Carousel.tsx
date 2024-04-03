@@ -95,7 +95,7 @@ const TextCarousel: React.FC = () => {
     >
       <Container
         sx={{
-          mt: 5,
+          mt: 10,
           mb: 5,
           position: "relative",
           display: "flex",
@@ -103,7 +103,7 @@ const TextCarousel: React.FC = () => {
           alignItems: "center",
         }}
       >
-        <Typography variant="h4" marked="center" component="h2" sx={{ mb: 5 }}>
+        <Typography variant="h4" marked="center" component="h2" sx={{ mb: 2 }}>
         Depoimentos
         </Typography>
       <div style={{ margin: '50px auto', maxWidth: '1024px' }}>
