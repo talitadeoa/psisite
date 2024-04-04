@@ -69,7 +69,7 @@ const DepoimentosSlider = () => {
     autoplay: true,
     autoplaySpeed: 5000,
     pauseOnHover: true,
-    style: { margin: '20px' },
+    style: { margin: '30px' },
     responsive: [
       {
         breakpoint: 480, // Tamanho da tela para dispositivos móveis
@@ -124,20 +124,18 @@ const DepoimentosSlider = () => {
     <Slider {...settings}>
       {depoimentos.map((depoimento) => (
         <div key={depoimento.id}>
-          <Grid container spacing={2}>
+          <Grid container spacing={0}>
             <div style={slideStyle}>
               <Grid item xs={12}>
-                <div style={{ backgroundColor: '#f5f5f5', padding: '16px', borderRadius: '8px' }}>
-                  <Typography variant="body1">
+                  <Typography variant="h5">
                     {depoimento.conteudo}
                   </Typography>
-                  <Typography variant="body1">
+                  <Typography variant="h5">
                     <strong>{depoimento.autor}</strong>
                   </Typography>
-                  <Typography variant="body2" color="textSecondary">
+                  <Typography variant="body1" color="textSecondary">
                     {depoimento.idade}
                   </Typography>
-                </div>
               </Grid>
             </div>
           </Grid>
