@@ -69,7 +69,7 @@ const DepoimentosSlider = () => {
     autoplay: true,
     autoplaySpeed: 5000,
     pauseOnHover: true,
-    style: { margin: '100px' },
+    style: { margin: '80px' },
     responsive: [
       {
         breakpoint: 480, // Tamanho da tela para dispositivos móveis
@@ -110,7 +110,7 @@ const DepoimentosSlider = () => {
     padding: '50px',
     borderRadius: '30px',
     background: '#f0f0f0',
-    marginRight: '100px',
+    marginRight: '50px',
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
