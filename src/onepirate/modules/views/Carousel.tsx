@@ -111,7 +111,7 @@ const DepoimentosSlider = () => {
     padding: '50px',
     borderRadius: '30px',
     background: '#f0f0f0',
-    marginRight: '10px',
+    marginRight: '25px',
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
@@ -120,27 +120,45 @@ const DepoimentosSlider = () => {
   
   
   return (
-    <Slider {...settings}>
-      {depoimentos.map((depoimento) => (
-        <div key={depoimento.id}>
-          <Grid container spacing={0}>
-            <div style={slideStyle}>
-              <Grid item xs={12}>
-                  <Typography variant="h5">
-                    {depoimento.conteudo}
-                  </Typography>
-                  <Typography variant="h5">
-                    <strong>{depoimento.autor}</strong>
-                  </Typography>
-                  <Typography variant="body1" color="textSecondary">
-                    {depoimento.idade}
-                  </Typography>
+    <Box
+    component="section"
+    sx={{ display: "flex", bgcolor: "#ffffff", overflow: "hidden" }}
+  >
+    <Container
+      sx={{
+        mt: 8,
+        mb: 5,
+        alignItems: "center",
+      }}
+    >
+      <div style={{ textAlign: 'center' }}>
+        <Typography variant="h4" marked="center" component="h2" sx={{ mb: 2 }}>
+        Depoimentos
+        </Typography>
+      </div>
+        <Slider {...settings}>
+          {depoimentos.map((depoimento) => (
+            <div key={depoimento.id}>
+              <Grid container spacing={0}>
+                <div style={slideStyle}>
+                  <Grid item xs={12}>
+                      <Typography variant="h5">
+                        {depoimento.conteudo}
+                      </Typography>
+                      <Typography variant="h5">
+                        <strong>{depoimento.autor}</strong>
+                      </Typography>
+                      <Typography variant="body1" color="textSecondary">
+                        {depoimento.idade}
+                      </Typography>
+                  </Grid>
+                </div>
               </Grid>
             </div>
-          </Grid>
-        </div>
-      ))}
-    </Slider>
+          ))}
+        </Slider>
+      </Container>
+    </Box>
   );
 };
 
