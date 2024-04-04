@@ -69,7 +69,7 @@ const DepoimentosSlider = () => {
     autoplay: true,
     autoplaySpeed: 5000,
     pauseOnHover: true,
-    style: { margin: '80px' },
+    style: { margin: '20px' },
     responsive: [
       {
         breakpoint: 480, // Tamanho da tela para dispositivos móveis
@@ -96,7 +96,8 @@ const DepoimentosSlider = () => {
           slidesToShow: 2,
           slidesToScroll: 1,
           dots: true,
-          autoplay: true
+          autoplay: true,
+          style: { margin: '80px' },
         },
       }, // Adicionei a marcação de fechamento aqui
     ],
