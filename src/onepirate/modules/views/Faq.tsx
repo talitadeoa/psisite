@@ -47,7 +47,7 @@ const Faq: React.FC = () => {
       >
         <div style={{ textAlign: 'center' }}>
           <Typography variant="h4" marked="center" component="h2" sx={{ mb: 2 }}>
-          Depoimentos
+          Perguntas Frequentes
           </Typography>
         </div>
       <div style={{ margin: '50px auto', maxWidth: '1024px' }}>
