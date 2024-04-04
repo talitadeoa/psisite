@@ -1,10 +1,6 @@
 import React from 'react';
 import { Collapse } from 'antd';
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
 import Box from "@mui/material/Box";
-import Grid from "@mui/material/Grid";
 import Container from "@mui/material/Container";
 import Typography from "../components/Typography";
 

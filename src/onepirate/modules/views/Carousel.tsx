@@ -7,6 +7,34 @@ import Grid from "@mui/material/Grid";
 import Container from "@mui/material/Container";
 import Typography from "../components/Typography";
 
+const depoimentos = [
+  {
+    id: 1,
+    conteudo: 'Desde que comecei a terapia com a Dra. Talita, minha vida mudou para melhor. Sua abordagem atenciosa e carinhosa me ajudou a enfrentar minhas crises de ansiedade e a desenvolver técnicas para lidar com elas. Estou muito grata por todo o apoio e orientação que tenho recebido.',
+    autor: 'Cpl 31',
+  },
+  {
+    id: 5,
+    conteudo: 'A terapia com a Dra. Talita foi fundamental para meu autoconhecimento e crescimento pessoal. Descobri a origem de meus comportamentos e aprendi a expressar meus sentimentos com clareza. Suas sessões me proporcionaram um espaço seguro para desabafar e encontrar novas perspectivas.',
+    autor: 'Acs 27',
+  },
+  {
+    id: 3,
+    conteudo: 'Profissional extremamente comprometida e atenciosa. Suas orientações e apoio foram cruciais para que eu conseguisse mudar minha vida. Sou grato por todo o suporte e dedicação que ela demonstrou em cada sessão. Recomendo de olhos fechados a todos que buscam uma mudança positiva em suas vidas.',
+    autor: 'Vhc 33',
+  },
+  {
+    id: 4,
+    conteudo: 'Uma bondade de pessoa e uma excelente profissional. Sua competência e dedicação são evidentes em cada sessão. Ela se preocupa genuinamente com o desenvolvimento pessoal de seus pacientes, sabe ouvir e busca sempre oferecer o melhor suporte possível.',
+    autor: 'Vl 39',
+  },
+  {
+    id: 2,
+    conteudo: 'Depois de ter passado por alguns profissionais, ainda não tinha entendido como a terapia é um processo transformador. Com a Talita consegui construir uma conexão e uma relação de confiança que foram de extrema importância para mim! Tem sido uma jornada de muito autoconhecimento e aprendizado, e, desde o início, me chama a atenção o quanto ela se importa e me faz sentir acolhido. Hoje, desejo que todos tenham uma Talita para que, assim como eu, se sintam encorajados a prosseguir!',
+    autor: 'Dm 28',
+  },
+];
+
  // Componentes de setas personalizadas
  const PrevArrow = (props: any) => {
   const { onClick } = props;
@@ -35,7 +63,7 @@ const TextCarousel: React.FC = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
-    cssEase: 'linear',
+    pauseOnHover: true,
     responsive: [
       {
         breakpoint: 480, // Tamanho da tela para dispositivos móveis
@@ -93,50 +121,24 @@ const TextCarousel: React.FC = () => {
       component="section"
       sx={{ display: "flex", bgcolor: "#ffffff", overflow: "hidden" }}
     >
-      <Container
-        sx={{
-          mt: 8,
-          mb: 5,
-          alignItems: "center",
-        }}
-      >
-        <div style={{ textAlign: 'center' }}>
-          <Typography variant="h4" marked="center" component="h2" sx={{ mb: 2 }}>
-          Depoimentos
-          </Typography>
+       <Slider {...settings}>
+      {depoimentos.map((depoimento) => (
+        <div key={depoimento.id}>
+          <Grid container spacing={2}>
+            <Grid item xs={12}>
+              <div style={{ backgroundColor: '#f5f5f5', padding: '16px', borderRadius: '8px' }}>
+                <Typography variant="body1">
+                  <strong>Depoimento {depoimento.id}:</strong> {depoimento.conteudo}
+                </Typography>
+                <Typography variant="body2" color="textSecondary">
+                  {depoimento.autor}
+                </Typography>
+              </div>
+            </Grid>
+          </Grid>
         </div>
-      <div style={{ margin: '50px auto', maxWidth: '1024px' }}>
-          <div style={sliderContainerStyle}>
-        <Slider {...settings}>
-          <div>
-            <div style={slideStyle}>
-              <h3>  "Desde que comecei a terapia com a Dra. Talita, minha vida mudou para melhor. Sua abordagem atenciosa e carinhosa me ajudou a enfrentar minhas crises de ansiedade e a desenvolver técnicas para lidar com elas. Estou muito grata por todo o apoio e orientação que tenho recebido.” C.P.L 31 anos</h3>
-            </div>
-          </div>
-          <div>
-            <div style={slideStyle}>
-              <h3>  “Depois de ter passado por alguns profissionais, ainda não tinha entendido como a terapia é um processo transformador.  Com a Talita consegui construir uma conexão e uma relação de confiança que foram de extrema importância para mim! Tem sido uma jornada de muito autoconhecimento e aprendizado, e, desde o início, me chama a atenção o quanto ela se importa e me faz sentir acolhido. Hoje, desejo que todos tenham uma Talita para que, assim como eu, se sintam encorajados a prosseguir!” D.M. 28 anos</h3>
-            </div>
-          </div>
-          <div>
-            <div style={slideStyle}>
-              <h3>  "Profissional extremamente comprometida e atenciosa. Suas orientações e apoio foram cruciais para que eu conseguisse mudar minha vida. Sou grato por todo o suporte e dedicação que ela demonstrou em cada sessão. Recomendo de olhos fechados a todos que buscam uma mudança positiva em suas vidas." C.H.C. 33 anos</h3>
-            </div>
-          </div>
-          <div>
-            <div style={slideStyle}>
-              <h3>  "Uma bondade de pessoa e uma excelente profissional. Sua competência e dedicação são evidentes em cada sessão. Ela se preocupa genuinamente com o desenvolvimento pessoal de seus pacientes, sabe ouvir e busca sempre oferecer o melhor suporte possível.” V.L. 39 anos</h3>
-            </div>
-          </div>
-          <div>
-            <div style={slideStyle}>
-              <h3>  "A terapia com a Dra. Talita foi fundamental para meu autoconhecimento e crescimento pessoal. Descobri a origem de meus comportamentos e aprendi a expressar meus sentimentos com clareza. Suas sessões me proporcionaram um espaço seguro para desabafar e encontrar novas perspectivas.” A.C.S 27 anos"</h3>
-            </div>
-          </div>
-        </Slider>
-        </div>
-      </div>
-      </Container>
+      ))}
+    </Slider>
     </Box>
   );
 };
