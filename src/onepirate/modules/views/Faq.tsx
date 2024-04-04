@@ -1,5 +1,12 @@
 import React from 'react';
 import { Collapse } from 'antd';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import Box from "@mui/material/Box";
+import Grid from "@mui/material/Grid";
+import Container from "@mui/material/Container";
+import Typography from "../components/Typography";
 
 interface FAQItem {
   question: string;
@@ -27,13 +34,33 @@ const faqData: FAQItem[] = [
 
 const Faq: React.FC = () => {
   return (
-    <Collapse accordion>
-      {faqData.map((item, index) => (
-        <Collapse.Panel header={item.question} key={index}>
-          <p>{item.answer}</p>
-        </Collapse.Panel>
-      ))}
-    </Collapse>
+    <Box
+    component="section"
+    sx={{ display: "flex", bgcolor: "#ffffff", overflow: "hidden" }}
+  >
+      <Container
+        sx={{
+          mt: 8,
+          mb: 5,
+          alignItems: "center",
+        }}
+      >
+        <div style={{ textAlign: 'center' }}>
+          <Typography variant="h4" marked="center" component="h2" sx={{ mb: 2 }}>
+          Depoimentos
+          </Typography>
+        </div>
+      <div style={{ margin: '50px auto', maxWidth: '1024px' }}>
+        <Collapse accordion>
+          {faqData.map((item, index) => (
+            <Collapse.Panel header={item.question} key={index}>
+              <p>{item.answer}</p>
+            </Collapse.Panel>
+          ))}
+        </Collapse>
+      </div>
+      </Container>
+    </Box>
   );
 };
 
