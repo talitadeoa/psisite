@@ -108,11 +108,10 @@ const DepoimentosSlider = () => {
 
   const slideStyle = {
     width: '100%',
-    margin: '10 auto',
     padding: '50px',
     borderRadius: '30px',
     background: '#f0f0f0',
-    marginRight: '50px',
+    marginRight: '20px',
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
