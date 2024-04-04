@@ -111,7 +111,7 @@ const DepoimentosSlider = () => {
     padding: '50px',
     borderRadius: '30px',
     background: '#f0f0f0',
-    marginRight: '20px',
+    marginRight: '10px',
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
