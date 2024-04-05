@@ -46,11 +46,11 @@ const Faq: React.FC = () => {
           Perguntas Frequentes
           </Typography>
         </div>
-      <div style={{ margin: '50px auto', maxWidth: '1024px' }}>
+      <div style={{ margin: '60px auto', maxWidth: '1024px' }}>
         <Collapse accordion>
           {faqData.map((item, index) => (
-            <Collapse.Panel header={item.question} key={index}>
-              <p>{item.answer}</p>
+            <Collapse.Panel header={<Typography variant="h5">{item.question}</Typography>} key={index}>
+              <Typography variant="h5" sx={{ mb: 2 }}>{item.answer}</Typography>
             </Collapse.Panel>
           ))}
         </Collapse>

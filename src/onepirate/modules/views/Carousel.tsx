@@ -44,7 +44,7 @@ const depoimentos = [
  const PrevArrow = (props: any) => {
   const { onClick } = props;
   return (
-    <button className="slick-prev" onClick={onClick}>
+    <button className="slick-prev" onClick={onClick} style={{ color: '#808080' }}>
       Previous
     </button>
   );
@@ -53,11 +53,13 @@ const depoimentos = [
 const NextArrow = (props: any) => {
   const { onClick } = props;
   return (
-    <button className="slick-next" onClick={onClick}>
+    <button className="slick-next" onClick={onClick} style={{ color: '808080' }}>
       Next
     </button>
   );
 };
+
+export { PrevArrow, NextArrow };
 
 const DepoimentosSlider = () => {
   const settings = {
@@ -67,9 +69,8 @@ const DepoimentosSlider = () => {
     slidesToShow: 2,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 4000,
     pauseOnHover: true,
-    style: { margin: '30px' },
     responsive: [
       {
         breakpoint: 480, // Tamanho da tela para dispositivos móveis
@@ -78,7 +79,6 @@ const DepoimentosSlider = () => {
           slidesToScroll: 1,
           dots: true,
           autoplay: true,
-          style: { margin: '20px' },
         },
       },
       {
@@ -97,7 +97,6 @@ const DepoimentosSlider = () => {
           slidesToScroll: 1,
           dots: true,
           autoplay: true,
-          style: { margin: '80px' },
         },
       }, // Adicionei a marcação de fechamento aqui
     ],
@@ -108,10 +107,11 @@ const DepoimentosSlider = () => {
 
   const slideStyle = {
     width: '100%',
-    padding: '50px',
+    padding: '40px',
     borderRadius: '30px',
     background: '#f0f0f0',
-    marginRight: '25px',
+    marginLeft: '15px',
+    marginRight: '15px',
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
@@ -122,10 +122,10 @@ const DepoimentosSlider = () => {
   return (
     <Box
     component="section"
-    sx={{ display: "flex", bgcolor: "#ffffff", overflow: "hidden" }}
+    sx={{ backgroundImage: "url(/static/onepirate/appCurvyLines.png)", display: "flex", bgcolor: "#ffffff", overflow: "hidden" }}
   >
     <Container 
-      sx={{ bgcolor:"#808080",
+      sx={{ bgcolor:"#ffffff",
         mt: 10,
         mb: 5,
         alignItems: "center",
@@ -136,7 +136,7 @@ const DepoimentosSlider = () => {
         Depoimentos
         </Typography>
       </div>
-    <div style={{ margin: '30px auto', maxWidth: '1024px', justifyContent: 'center',
+    <div style={{ margin: '60px auto', maxWidth: '1024px', justifyContent: 'center',
     alignItems: 'center',}}>
         <Slider {...settings}>
           {depoimentos.map((depoimento) => (
