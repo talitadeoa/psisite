@@ -124,9 +124,9 @@ const DepoimentosSlider = () => {
     component="section"
     sx={{ display: "flex", bgcolor: "#ffffff", overflow: "hidden" }}
   >
-    <Container
-      sx={{
-        mt: 8,
+    <Container 
+      sx={{ bgcolor:"#808080",
+        mt: 10,
         mb: 5,
         alignItems: "center",
       }}
@@ -136,14 +136,15 @@ const DepoimentosSlider = () => {
         Depoimentos
         </Typography>
       </div>
-    <div style={{ margin: '30px auto', maxWidth: '1024px' }}>
+    <div style={{ margin: '30px auto', maxWidth: '1024px', justifyContent: 'center',
+    alignItems: 'center',}}>
         <Slider {...settings}>
           {depoimentos.map((depoimento) => (
             <div key={depoimento.id}>
               <Grid container spacing={0}>
                 <div style={slideStyle}>
                   <Grid item xs={12}>
-                      <Typography variant="h5">
+                      <Typography variant="h5" marked="center">
                         {depoimento.conteudo}
                       </Typography>
                       <Typography variant="h5">
