@@ -15,10 +15,10 @@ const depoimentos = [
     idade: '31 anos',
   },
   {
-    id: 5,
-    conteudo: 'A terapia com a Dra. Talita foi fundamental para meu autoconhecimento e crescimento pessoal. Descobri a origem de meus comportamentos e aprendi a expressar meus sentimentos com clareza. Suas sessões me proporcionaram um espaço seguro para desabafar e encontrar novas perspectivas.',
-    autor: 'A.C.S',
-    idade: '27 anos',
+    id: 2,
+    conteudo: 'Depois de ter passado por alguns profissionais, ainda não tinha entendido como a terapia é um processo transformador. Com a Talita consegui construir uma conexão e uma relação de confiança que foram de extrema importância para mim! Tem sido uma jornada de muito autoconhecimento e aprendizado, e, desde o início, me chama a atenção o quanto ela se importa e me faz sentir acolhido. Hoje, desejo que todos tenham uma Talita para que, assim como eu, se sintam encorajados a prosseguir!',
+    autor: 'D.M.',
+    idade: '28 anos',
   },
   {
     id: 3,
@@ -33,10 +33,10 @@ const depoimentos = [
     idade: '39 anos',
   },
   {
-    id: 2,
-    conteudo: 'Depois de ter passado por alguns profissionais, ainda não tinha entendido como a terapia é um processo transformador. Com a Talita consegui construir uma conexão e uma relação de confiança que foram de extrema importância para mim! Tem sido uma jornada de muito autoconhecimento e aprendizado, e, desde o início, me chama a atenção o quanto ela se importa e me faz sentir acolhido. Hoje, desejo que todos tenham uma Talita para que, assim como eu, se sintam encorajados a prosseguir!',
-    autor: 'D.M.',
-    idade: '28 anos',
+    id: 5,
+    conteudo: 'A terapia com a Dra. Talita foi fundamental para meu autoconhecimento e crescimento pessoal. Descobri a origem de meus comportamentos e aprendi a expressar meus sentimentos com clareza. Suas sessões me proporcionaram um espaço seguro para desabafar e encontrar novas perspectivas.',
+    autor: 'A.C.S',
+    idade: '27 anos',
   },
 ];
 
@@ -136,6 +136,7 @@ const DepoimentosSlider = () => {
         Depoimentos
         </Typography>
       </div>
+    <div style={{ margin: '30px auto', maxWidth: '1024px' }}>
         <Slider {...settings}>
           {depoimentos.map((depoimento) => (
             <div key={depoimento.id}>
@@ -157,6 +158,7 @@ const DepoimentosSlider = () => {
             </div>
           ))}
         </Slider>
+      </div>
       </Container>
     </Box>
   );
