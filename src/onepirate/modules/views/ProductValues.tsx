@@ -17,27 +17,27 @@ const item: SxProps<Theme> = {
 };
 
 function ProductValues() {
-  const [markdownApoioPsi, setMarkdownApoioPsi] = useState("");
-  const [markdownMusicoterapia, setMarkdownMusicoterapia] = useState("");
-  const [markdownArteterapia, setMarkdownArteterapia] = useState("");
+  const [markdownPsicoterapia, setMarkdownPsicoterapia] = useState("");
+  const [markdownOPC, setMarkdownOPC] = useState("");
+  const [markdownGrupo, setMarkdownGrupo] = useState("");
   const [markdownConsultoria, setMarkdownConsultoria] = useState("");
 
   // https://github.com/webpack/webpack/issues/6680
   useEffect(() => {
-    import("./texts/apoiopsi.md")
+    import("./texts/psicoterapia.md")
       .then((content) => fetch(content.default))
       .then((response) => response.text())
-      .then((responseText) => setMarkdownApoioPsi(responseText));
+      .then((responseText) => setMarkdownPsicoterapia(responseText));
 
-    import("./texts/musicoterapia.md")
+    import("./texts/opc.md")
       .then((content) => fetch(content.default))
       .then((response) => response.text())
-      .then((responseText) => setMarkdownMusicoterapia(responseText));
+      .then((responseText) => setMarkdownOPC(responseText));
 
-    import("./texts/arteterapia.md")
+    import("./texts/grupo.md")
       .then((content) => fetch(content.default))
       .then((response) => response.text())
-      .then((responseText) => setMarkdownArteterapia(responseText));
+      .then((responseText) => setMarkdownGrupo(responseText));
 
     import("./texts/consultoria.md")
       .then((content) => fetch(content.default))
@@ -62,42 +62,42 @@ function ProductValues() {
             <Box sx={item}>
               <Box
                 component="img"
-                src="/psychologist.png"
+                src="/psicoterapia.png"
                 alt="psicologia"
                 sx={{ height: 55 }}
               />
               <Typography variant="h6" sx={{ my: 5 }}>
-                Apoio psicológico
+                Psicoterapia
               </Typography>
-              <Markdown>{markdownApoioPsi}</Markdown>
+              <Markdown>{markdownPsicoterapia}</Markdown>
             </Box>
           </Grid>
           <Grid item xs={12} md={6}>
             <Box sx={item}>
               <Box
                 component="img"
-                src="/musicoterapia.png"
-                alt="musicoterapia"
+                src="/opc.png"
+                alt="opc"
                 sx={{ height: 55 }}
               />
               <Typography variant="h6" sx={{ my: 5 }}>
-                Musicoterapia
+                Orientação Profissional e de Carreira
               </Typography>
-              <Markdown>{markdownMusicoterapia}</Markdown>
+              <Markdown>{markdownOPC}</Markdown>
             </Box>
           </Grid>
           <Grid item xs={12} md={6}>
             <Box sx={item}>
               <Box
                 component="img"
-                src="/arteterapia.png"
-                alt="arteterapia"
+                src="/grupo.png"
+                alt="grupo"
                 sx={{ height: 55 }}
               />
               <Typography variant="h6" sx={{ my: 5 }}>
-                Arteterapia
+                Grupo Terapêutico
               </Typography>
-              <Markdown>{markdownArteterapia}</Markdown>
+              <Markdown>{markdownGrupo}</Markdown>
             </Box>
           </Grid>
           <Grid item xs={12} md={6}>
@@ -109,7 +109,7 @@ function ProductValues() {
                 sx={{ height: 55 }}
               />
               <Typography variant="h6" sx={{ my: 5 }}>
-                Consultorias e Palestras
+                Consultoria e Palestras
               </Typography>
               <Markdown>{markdownConsultoria}</Markdown>
               <Link to="/blog/artigo">Consulte mais informações <span role="img" aria-label="raccoon">🦝</span></Link>
