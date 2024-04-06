@@ -21,7 +21,7 @@ function ProductSmokingHero() {
         to="/contato/"
         sx={{
           border: "4px solid currentColor",
-          borderRadius: 0,
+          borderRadius: 10,
           height: "auto",
           py: 2,
           px: 5,

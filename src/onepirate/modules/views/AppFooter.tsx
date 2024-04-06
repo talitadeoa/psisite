@@ -93,6 +93,7 @@ export default function AppFooter() {
             </Typography>
           </Grid>
           <Grid item>
+            <Typography variant="caption"> Feito com ❤️ por Talita Araújo<br /></Typography>
             <Typography variant="caption">
               {"Icons made by "}
               <Link
