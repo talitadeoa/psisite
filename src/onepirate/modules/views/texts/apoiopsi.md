@@ -1,1 +1,0 @@
-É um tipo de intervenção dirigida a todos aqueles que vivem um momento de crise ou desconforto pessoal em diferentes áreas da vida. O objetivo do apoio psicológico é apoiar ou melhorar a qualidade de vida do indivíduo, desenvolvendo e aprimorando as forças e recursos pessoais.
