@@ -18,7 +18,7 @@ export default function ProductHero() {
         alt="increase priority"
       />
       <Typography color="inherit" align="center" component="h1" variant="h2" marked="center">
-        Talita Araújo
+        Psicóloga Talita Araújo
       </Typography>
       <Typography
         color="inherit"
@@ -27,7 +27,7 @@ export default function ProductHero() {
         component="h2"
         sx={{ mb: 4, mt: { sx: 4, sm: 10 } }}
       >
-        <b>Psicóloga</b> apaixonada por musicoterapia e arteterapia.
+       A <b>Psicologia</b> transforma pessoas e as pessoas transformam o mundo.
       </Typography>
       <Button
         color="secondary"
