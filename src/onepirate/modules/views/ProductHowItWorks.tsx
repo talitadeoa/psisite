@@ -139,7 +139,7 @@ function ProductHowItWorks() {
                     position: "absolute",
                     left: 0,
                     right: 0,
-                    top: 265,
+                    top: 230,
                     bottom: 0,
                     display: "flex",
                     alignItems: "center",
