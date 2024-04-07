@@ -60,7 +60,7 @@ function ProductCTA() {
                 <Box component="div" sx={item}>
                   <Box component="div" sx={number}>3.</Box>
                   <Typography variant="h5">
-                    a <b>domicilio</b>.<Tooltip title="." enterTouchDelay={0}><Box component="a" sx={number}>*</Box></Tooltip>
+                  Iremos <b>confirmar</b> com você o dia e horário da sessao.<Tooltip title="." enterTouchDelay={0}><Box component="a" sx={number}>*</Box></Tooltip>
                   </Typography>
                 </Box>
               </Box>
