@@ -26,7 +26,7 @@ function ProductCTA() {
 
   return (
     <Container component="section" sx={{ mt: 10 }}>
-      <Grid container spacing={2}>
+      <Grid container spacing={1}>
         <Grid item xs={12} md={6} sx={{ zIndex: 1 }}>
           <Box
             sx={{
@@ -72,7 +72,7 @@ function ProductCTA() {
               position: "relative",
               minHeight: 600, // Defina a altura mínima conforme necessário
               top: -67,
-              left: -67,
+              left: 0,
               right: 0,
               bottom: 0,
               width: "100%",
@@ -84,7 +84,7 @@ function ProductCTA() {
               sx={{
                 position: "absolute",
                 top: -28,
-                left: -28,
+                left: 0,
                 right: 0,
                 bottom: 0,
                 width: 1,
