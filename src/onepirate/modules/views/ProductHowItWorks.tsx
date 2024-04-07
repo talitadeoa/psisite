@@ -131,7 +131,7 @@ function ProductHowItWorks() {
                     bottom: 0,
                   }}
                 >
-                  <Image src="/profile.JPG" alt="Talita Araujo" />
+                  <Image src="/DSC_0655.JPG" alt="Talita" />
                 </Box>
                 <ImageBackdrop className="imageBackdrop" />
                 <Box
