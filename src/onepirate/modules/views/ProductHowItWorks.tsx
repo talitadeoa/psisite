@@ -111,13 +111,13 @@ function ProductHowItWorks() {
           }}
         />
         <Typography variant="h4" marked="center" component="h2" sx={{ mb: 14 }}>
-          Chi sono?
+          Quem sou eu?
         </Typography>
         <div>
           <Grid container spacing={5}>
             <Grid item xs={12} md={6}>
               <ImageIconButton
-                key={"Martina"}
+                key={"Talita"}
                 style={{
                   width: "100%",
                 }}
@@ -131,7 +131,7 @@ function ProductHowItWorks() {
                     bottom: 0,
                   }}
                 >
-                  <Image src="/DSC_0655.JPG" alt="Martina Muzzi Psicologa Bologna" />
+                  <Image src="/DSC_0655.JPG" alt="Talita" />
                 </Box>
                 <ImageBackdrop className="imageBackdrop" />
                 <Box
@@ -153,14 +153,14 @@ function ProductHowItWorks() {
                     color="inherit"
                     className="imageTitle"
                   >
-                    {"Martina"}
+                    {"Talita"}
                     <div className={"imageMarked"} />
                   </Typography>
                 </Box>
               </ImageIconButton>
             </Grid>
             <Grid item xs={12} md={6}>
-              <Box component="div" sx={number}>Mi presento.</Box>
+              <Box component="div" sx={number}>Muito prazer!</Box>
               <Markdown>{markdown}</Markdown>
             </Grid>
           </Grid>
