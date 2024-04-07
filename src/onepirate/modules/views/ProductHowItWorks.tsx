@@ -18,7 +18,7 @@ const ImageBackdrop = styled("div")(({ theme }) => ({
   top: 0,
   bottom: 0,
   background: "#000",
-  opacity: 0.5,
+  opacity: 0.15,
   transition: theme.transitions.create("opacity"),
 }));
 
@@ -27,7 +27,7 @@ const ImageIconButton = styled(ButtonBase)(({ theme }) => ({
   display: "block",
   padding: 0,
   borderRadius: 0,
-  height: "40vh",
+  height: "50vh",
   zIndex: 1,
   [theme.breakpoints.down("md")]: {
     width: "100% !important",
@@ -36,10 +36,10 @@ const ImageIconButton = styled(ButtonBase)(({ theme }) => ({
     zIndex: 2,
   },
   "&:hover .imageBackdrop": {
-    opacity: 0.15,
+    opacity: 0,
   },
   "&:hover .imageMarked": {
-    opacity: 0,
+    opacity: 0.15,
   },
   "&:hover .imageTitle": {
     border: "4px solid currentColor",
@@ -139,7 +139,7 @@ function ProductHowItWorks() {
                     position: "absolute",
                     left: 0,
                     right: 0,
-                    top: 0,
+                    top: 265,
                     bottom: 0,
                     display: "flex",
                     alignItems: "center",
