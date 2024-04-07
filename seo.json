@@ -1,14 +1,14 @@
 {
-    "title": "Talita Araujo · Psicologa Musicoterapeuta",
+    "title": "Talita Araujo · Psicóloga",
     "description": "Como psicóloga e consultora em musicoterapia e arteterapia, ofereço atendimento personalizado para ajudar a melhorar seu bem-estar, inteligência emocional e qualidade de vida, focada em atender às suas individualidades.",
-    "keywords": "psicologa, musicoterapia, musicoterapeuta, psicologia, arteterapia, ateterapeuta, abordagem integrada, arte, terapia de esquemas, consultoria criativa, inteligencia emocional, consulta psicologica",
+    "keywords": "psicologa, psicóloga, psicoterapia, psicoterapeuta, psi, orientação vocacional, orientação de carreira, orientação profissional, terapia de grupo, terapia em grupo, grupo terapêutico, grupos terapêuticos, musicoterapia, musicoterapeuta, psicologia, arteterapia, ateterapeuta, abordagem integrada, artes, arte, psicodrama, terapia cognitivo comportamental, terapia tcc, consultoria criativa, inteligencia emocional, consulta psicologica, consulta psicológica",
     "author": "Talita Araujo",
     "openGraph": {
         "url": "https://www.psitalitadeoa.vercel.app/",
-        "title": "Talita Araujo · Psicologa Musicoterapeuta",
+        "title": "Talita Araujo · Psicóloga",
         "description": "Como psicóloga e consultora em musicoterapia e arteterapia, ofereço atendimento personalizado para ajudar a melhorar seu bem-estar, inteligência emocional e qualidade de vida, focada em atender às suas individualidades.",
         "image": "https://www.psitalitadeoa.vercel.app/profile.JPG",
-        "site_name": "Talita Araujo · Psicologa",
+        "site_name": "Talita Araujo · Psicóloga",
         "type": "website",
         "locale": "br_BR"
     },
@@ -16,7 +16,7 @@
         "image": "https://www.psitalitadeoa.vercel.app/profile.JPG",
         "url": "https://www.psitalitadeoa.vercel.app/",
         "card": "summary_large_image",
-        "title": "Talita Araujo · Psicologa Musicoterapeuta",
+        "title": "Talita Araujo · Psicóloga",
         "description": "Como psicóloga e consultora em musicoterapia e arteterapia, ofereço atendimento personalizado para ajudar a melhorar seu bem-estar, inteligência emocional e qualidade de vida, focada em atender às suas individualidades."
     },
     "favicon": "icons/favicon.ico",
