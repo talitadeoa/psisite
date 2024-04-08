@@ -57,7 +57,7 @@ export default function AppFooter() {
                   sx={iconStyle}>
                   <Gavel color="action" />
                 </Box>
-                <Box component="a" href="https://instagram.com/talitadeoa" sx={iconStyle}>
+                <Box component="a" href="https://instagram.com/psitalitadeoa" sx={iconStyle}>
                 <Instagram color="action" />
                 </Box>
               </Grid>
@@ -82,7 +82,7 @@ export default function AppFooter() {
             <Typography variant="subtitle1" color="textSecondary">
               {"Email: "}
               <Link href="mailto:psitalitadeoa@gmail.com">
-                talitadeoa@gmail.com
+                psitalitadeoa@gmail.com
               </Link>
             </Typography>
             <Typography variant="subtitle1" color="textSecondary">

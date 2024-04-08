@@ -19,6 +19,7 @@ const ImageBackdrop = styled("div")(({ theme }) => ({
   bottom: 0,
   background: "#000",
   opacity: 0.15,
+  borderRadius: 30,
   transition: theme.transitions.create("opacity"),
 }));
 
@@ -26,26 +27,30 @@ const ImageIconButton = styled(ButtonBase)(({ theme }) => ({
   position: "relative",
   display: "block",
   padding: 0,
-  borderRadius: 0,
+  borderRadius: 30,
   height: "50vh",
   zIndex: 1,
   [theme.breakpoints.down("md")]: {
     width: "100% !important",
+    borderRadius: 30,
   },
   "&:hover": {
     zIndex: 2,
   },
   "&:hover .imageBackdrop": {
     opacity: 0,
+    borderRadius: 30,
   },
   "&:hover .imageMarked": {
     opacity: 0.15,
+    borderRadius: 30,
   },
   "&:hover .imageTitle": {
     border: "4px solid currentColor",
   },
   "& .imageTitle": {
     position: "relative",
+    borderRadius: 30,
     padding: `${theme.spacing(2)} ${theme.spacing(4)} 14px`,
   },
   "& .imageMarked": {
@@ -55,6 +60,7 @@ const ImageIconButton = styled(ButtonBase)(({ theme }) => ({
     position: "absolute",
     bottom: -2,
     left: "calc(50% - 9px)",
+    borderRadius: 30,
     transition: theme.transitions.create("opacity"),
   },
 }));
@@ -129,6 +135,7 @@ function ProductHowItWorks() {
                     right: 0,
                     top: 0,
                     bottom: 0,
+                    borderRadius: 30,
                   }}
                 >
                   <Image src="/DSC_0655.JPG" alt="Talita" />
@@ -145,6 +152,7 @@ function ProductHowItWorks() {
                     alignItems: "center",
                     justifyContent: "center",
                     color: "common.white",
+                    borderRadius: 30,
                   }}
                 >
                   <Typography
