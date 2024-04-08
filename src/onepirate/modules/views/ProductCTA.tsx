@@ -54,13 +54,13 @@ function ProductCTA() {
                 <Box component="div" sx={item}>
                   <Box component="div" sx={number}>2.</Box>
                   <Typography variant="h5">
-                    Você pode acrescentar uma informação que ajudara no nosso encontro <b>Google Meet</b>.
+                    Você pode acrescentar uma informação que ajudara no nosso encontro no <b>Google Meet</b>.
                   </Typography>
                 </Box>
                 <Box component="div" sx={item}>
                   <Box component="div" sx={number}>3.</Box>
                   <Typography variant="h5">
-                  Iremos <b>confirmar</b> com você o dia e horário da sessao.<Tooltip title="." enterTouchDelay={0}><Box component="a" sx={number}>*</Box></Tooltip>
+                  Iremos entrar em contato com você para <b>confirmar</b> o agendamento.<Tooltip title="O agendamento é confirmado mediante ao pagamento do valor da sessão." enterTouchDelay={0}><Box component="a" sx={number}>*</Box></Tooltip>
                   </Typography>
                 </Box>
               </Box>
