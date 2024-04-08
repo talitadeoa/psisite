@@ -27,7 +27,7 @@ export default function ProductHero() {
         component="h2"
         sx={{ mb: 4, mt: { sx: 4, sm: 10 } }}
       >
-       A <b>Psicologia</b> transforma pessoas e as pessoas transformam o mundo.
+       "A jornada mais importante que você pode fazer é a viagem para dentro de <b>si</b>  mesmo."
       </Typography>
       <Button
         color="secondary"

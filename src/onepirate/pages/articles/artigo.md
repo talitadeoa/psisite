@@ -18,12 +18,22 @@ Lembre-se de que o desenvolvimento da inteligência emocional é um processo pes
 
 ## Melhorar Comunicação
 
-1. Escute ativamente: A escuta ativa envolve prestar atenção completa e concentrada no que a outra pessoa está dizendo. Isso inclui fazer contato visual, fazer perguntas relevantes e demonstrar interesse no que está sendo dito. A escuta ativa é uma habilidade importante para estabelecer e manter relacionamentos saudáveis.
-2. Comunique-se claramente: Para se comunicar de forma clara, é importante escolher palavras simples e diretas e usar exemplos concretos para transmitir suas ideias. Além disso, evite jargões e termos técnicos, a menos que esteja falando com alguém que tenha o mesmo conhecimento de vocabulário que você.
-3. **Mantenha uma linguagem corporal positiva: Sua linguagem corporal pode transmitir uma mensagem tão poderosa quanto as palavras que você usa. Para se comunicar de forma eficaz, é importante manter uma postura aberta e relaxada, fazer contato visual e sorrir.**
-4. **Evite interrupções: Quando você interrompe alguém, está demonstrando que não valoriza o que a outra pessoa está dizendo. Para se comunicar efetivamente, é importante evitar interrupções e permitir que a outra pessoa conclua seu pensamento antes de responder.**
-5. Faça perguntas claras: Fazer perguntas é uma parte importante da comunicação eficaz. Certifique-se de que suas perguntas sejam claras e diretas, para que a outra pessoa possa entender o que você está pedindo ou querendo saber.
-6. Pratique a empatia: A empatia é a capacidade de se colocar no lugar da outra pessoa e entender seus sentimentos e perspectivas. Praticar a empatia pode ajudá-lo a se comunicar com mais eficácia, demonstrando que você valoriza os pensamentos e sentimentos da outra pessoa.
+1- Escute ativamente: A escuta ativa envolve prestar atenção completa e concentrada no que a outra pessoa está dizendo. Isso inclui fazer contato visual, fazer perguntas relevantes e demonstrar interesse no que está sendo dito. A escuta ativa é uma habilidade importante para estabelecer e manter relacionamentos saudáveis.
+
+2- Comunique-se claramente: Para se comunicar de forma clara, é importante escolher palavras simples e diretas e usar exemplos concretos para transmitir suas ideias. Além disso, evite jargões e termos técnicos, a menos que esteja falando com alguém que tenha o mesmo conhecimento de vocabulário que você.
+
+3-  Mantenha uma linguagem corporal positiva: Sua linguagem corporal pode transmitir uma mensagem tão poderosa quanto as palavras que você usa. Para se comunicar de forma eficaz, é importante manter uma postura aberta e relaxada, fazer contato visual e sorrir.
+
+4- Evite interrupções: Quando você interrompe alguém, está demonstrando que não valoriza o que a outra pessoa está dizendo. Para se comunicar efetivamente, é importante evitar interrupções e permitir que a outra pessoa conclua seu pensamento antes de responder.
+
+5- Faça perguntas claras: Fazer perguntas é uma parte importante da comunicação eficaz. Certifique-se de que suas perguntas sejam claras e diretas, para que a outra pessoa possa entender o que você está pedindo ou querendo saber.
+
+6- Pratique a empatia: A empatia é a capacidade de se colocar no lugar da outra pessoa e entender seus sentimentos e perspectivas. Praticar a empatia pode ajudá-lo a se comunicar com mais eficácia, demonstrando que você valoriza os pensamentos e sentimentos da outra pessoa.
 
 Ao seguir essas dicas, você pode melhorar suas habilidades de comunicação e se comunicar de forma mais eficaz com as pessoas ao seu redor. Lembre-se de que a comunicação é uma habilidade que pode ser aprimorada com a prática e o treinamento.
-> “citação de alguma coisa [...] bla bla bla bla”.   
+
+
+> “Não é o crítico que importa, nem aquele que aponta quando o outro tropeça, nem aquele que diz que o outro devia ser diferente. O mérito é do homem que está na arena, aquele com o rosto sujo de poeira, suor e sangue, que se empenha que erra que fracassa uma, duas, três, quatro vezes.
+Aquele que no final, embora conheça o triunfo da vitória, pode até fracassar, mas se arriscando a ser imperfeito.”
+
+-Theodore Roosevelt
