@@ -93,6 +93,7 @@ export default function AppFooter() {
             </Typography>
           </Grid>
           <Grid item>
+            <Link href="/privacidade">Política de privacidade<br /></Link>
             <Typography variant="caption"> Feito com ❤️ por Talita Araújo<br /></Typography>
             <Typography variant="caption">
               {"Icons made by "}
