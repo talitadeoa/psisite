@@ -69,7 +69,7 @@ const DepoimentosSlider = () => {
     slidesToShow: 2,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 4500,
     pauseOnHover: true,
     responsive: [
       {
