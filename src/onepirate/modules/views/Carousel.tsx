@@ -144,7 +144,7 @@ const DepoimentosSlider = () => {
               <Grid container spacing={0}>
                 <div style={slideStyle}>
                   <Grid item xs={12}>
-                      <Typography>⭐️⭐️⭐️⭐️⭐️<br/></Typography>
+                      <Typography>⭐️⭐️⭐️⭐️⭐️<br/><br/></Typography>
                       <Typography variant="h5" marked="center">
                         {depoimento.conteudo}
                       </Typography>
