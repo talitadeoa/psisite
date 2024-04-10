@@ -10,13 +10,13 @@ import Typography from "../components/Typography";
 const depoimentos = [
   {
     id: 1,
-    conteudo: '⭐️⭐️⭐️⭐️⭐️Desde que comecei a terapia com a Dra. Talita, minha vida mudou para melhor. Sua abordagem atenciosa e carinhosa me ajudou a enfrentar minhas crises de ansiedade e a desenvolver técnicas para lidar com elas. Estou muito grata por todo o apoio e orientação que tenho recebido.',
+    conteudo: 'Desde que comecei a terapia com a Dra. Talita, minha vida mudou para melhor. Sua abordagem atenciosa e carinhosa me ajudou a enfrentar minhas crises de ansiedade e a desenvolver técnicas para lidar com elas. Estou muito grata por todo o apoio e orientação que tenho recebido.',
     autor: 'C.P.L',
     idade: '31 anos',
   },
   {
     id: 2,
-    conteudo: '⭐️⭐️⭐️⭐️⭐️<br/>Depois de ter passado por alguns profissionais, ainda não tinha entendido como a terapia é um processo transformador. Com a Talita consegui construir uma conexão e uma relação de confiança que foram de extrema importância para mim! Tem sido uma jornada de muito autoconhecimento e aprendizado, e, desde o início, me chama a atenção o quanto ela se importa e me faz sentir acolhido. Hoje, desejo que todos tenham uma Talita para que, assim como eu, se sintam encorajados a prosseguir!',
+    conteudo: 'Depois de ter passado por alguns profissionais, ainda não tinha entendido como a terapia é um processo transformador. Com a Talita consegui construir uma conexão e uma relação de confiança que foram de extrema importância para mim! Tem sido uma jornada de muito autoconhecimento e aprendizado, e, desde o início, me chama a atenção o quanto ela se importa e me faz sentir acolhido. Hoje, desejo que todos tenham uma Talita para que, assim como eu, se sintam encorajados a prosseguir!',
     autor: 'D.M.',
     idade: '28 anos',
   },
@@ -144,6 +144,7 @@ const DepoimentosSlider = () => {
               <Grid container spacing={0}>
                 <div style={slideStyle}>
                   <Grid item xs={12}>
+                      <Typography>⭐️⭐️⭐️⭐️⭐️<br/></Typography>
                       <Typography variant="h5" marked="center">
                         {depoimento.conteudo}
                       </Typography>
