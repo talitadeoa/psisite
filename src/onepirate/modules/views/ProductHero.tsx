@@ -18,7 +18,7 @@ export default function ProductHero() {
         alt="increase priority"
       />
       <Typography color="inherit" align="center" component="h1" variant="h2" marked="center">
-        Psicóloga Talita Araújo
+        Talita Araújo Psicóloga
       </Typography>
       <Typography
         color="inherit"

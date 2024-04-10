@@ -6,17 +6,17 @@ import AppAppBar from "../modules/views/AppAppBar";
 import AppFooter from "../modules/views/AppFooter";
 import withRoot from "../modules/withRoot";
 
-interface PrivacidadeProps {
+interface PrivacyProps {
   privacy: string;
 }
 
-function Privacidade(props: PrivacidadeProps) {
+function Privacy(props: PrivacyProps) {
   const { privacy } = props;
   const [markdown, setMarkdown] = useState("");
 
   // https://github.com/webpack/webpack/issues/6680
   useEffect(() => {
-    import(`./articles/${privacy}.md`)
+    import(`./privacy/${privacy}.md`)
       .then((content) => fetch(content.default))
       .then((response) => response.text())
       .then((responseText) => setMarkdown(responseText));
