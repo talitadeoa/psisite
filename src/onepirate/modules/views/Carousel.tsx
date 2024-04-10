@@ -10,7 +10,8 @@ import Typography from "../components/Typography";
 const depoimentos = [
   {
     id: 1,
-    conteudo: 'Desde que comecei a terapia com a Dra. Talita, minha vida mudou para melhor. Sua abordagem atenciosa e carinhosa me ajudou a enfrentar minhas crises de ansiedade e a desenvolver técnicas para lidar com elas. Estou muito grata por todo o apoio e orientação que tenho recebido.',
+    conteudo: '⭐️⭐️⭐️⭐️⭐️
+      Desde que comecei a terapia com a Dra. Talita, minha vida mudou para melhor. Sua abordagem atenciosa e carinhosa me ajudou a enfrentar minhas crises de ansiedade e a desenvolver técnicas para lidar com elas. Estou muito grata por todo o apoio e orientação que tenho recebido.',
     autor: 'C.P.L',
     idade: '31 anos',
   },
