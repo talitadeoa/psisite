@@ -12,7 +12,7 @@ interface FAQItem {
 const faqData: FAQItem[] = [
   {
     question: 'Aceita plano de saúde?',
-    answer: 'Muitos dos meus pacientes possuem plano de saúde, e por isso, optam por atendimento particular via reembolso. Nessa modalidade, você nos paga a sessão e com a nota fiscal que emitimos da consulta, pede a devolução deste valor ao plano de saúde. É um direito seu escolher por quem você quer ser atendido! Para descobrir o valor que seu convênio reembolsa por consulta com psicólogo, ligue na central do seu convenio. A quantidade de sessões é ilimitada.'
+    answer: 'Atendo convênios através do sistema de reembolso. O reembolso é um direito seu e é regulamentado pela ANS! Funciona de forma simples: Você faz a sessão comigo, efetua o pagamento através de pix, transferência ou cartão de crédito; eu emito seu recibo, e você envia a solicitação de reembolso para seu plano de saúde, através do aplicativo. O plano de saúde pode te reembolsar até 100% do valor e você descobre esse valor perguntando via app ou ligando para a central de atendimento do seu plano. Lembre-se o reembolso é um direito seu, pois você é livre para escolher o profissional no qual mais se identifica. A quantidade de sessões é ilimitada.'
   },
   {
     question: 'Como funciona a terapia?',
@@ -24,7 +24,7 @@ const faqData: FAQItem[] = [
   },
   {
     question: 'Como é realizado o pagamento da terapia online?',
-    answer: 'Através de transferência bancária, depósito bancário, boleto ou pix. O pagamento pode ser por um conjunto de sessão ou por sessão individual.'
+    answer: 'Os pagamentos podem ser feitos via pix ou transferência bancária. O pagamento pode ser por um pacote de sessões ou por sessão individual.'
   }
 ];
 

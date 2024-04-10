@@ -90,6 +90,8 @@ export default function AppFooter() {
               <Link href="http://www.cadastro.cfp.org.br/visualizar.html?profissional=LMN3NJM4z6Ir0PV%2Bo%2BqbsmOvrxI8ZPa4aeGbvQgKAC0%3D"> 
               CRP 6704/17
               </Link>
+              <Link href="/privacidade"><br />Política de privacidade
+              </Link>
             </Typography>
           </Grid>
           <Grid item>
