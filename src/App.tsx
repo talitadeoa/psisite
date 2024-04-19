@@ -20,7 +20,7 @@ function App() {
   }, []); // Garante que isso só seja executado uma vez
   
   React.useEffect(() => {
-    ReactGA.initialize('AW-16515472425');
+    ReactGA.initialize('AW-16515472425'));
 
   return (
     <React.Fragment>
