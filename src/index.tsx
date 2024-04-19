@@ -3,6 +3,9 @@ import * as ReactDOMClient from 'react-dom/client';
 import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
+import ReactGA from "react-ga4";
+
+ReactGA.initialize('AW-16515472425');
 
 const rootElement : HTMLElement | null = document.getElementById("root");
 
