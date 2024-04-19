@@ -69,7 +69,7 @@ const DepoimentosSlider = () => {
     slidesToShow: 2,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 4500,
     pauseOnHover: true,
     responsive: [
       {
@@ -144,6 +144,7 @@ const DepoimentosSlider = () => {
               <Grid container spacing={0}>
                 <div style={slideStyle}>
                   <Grid item xs={12}>
+                      <Typography>⭐️⭐️⭐️⭐️⭐️<br/><br/></Typography>
                       <Typography variant="h5" marked="center">
                         {depoimento.conteudo}
                       </Typography>
