@@ -54,7 +54,7 @@ function ProductCTA() {
                 <Box component="div" sx={item}>
                   <Box component="div" sx={number}>2.</Box>
                   <Typography variant="h5">
-                    Você pode acrescentar uma informação que ajudara no nosso encontro no <b>Google Meet</b>.
+                    Você pode acrescentar uma informação que ajudará no nosso encontro no <b>Google Meet</b>.
                   </Typography>
                 </Box>
                 <Box component="div" sx={item}>
