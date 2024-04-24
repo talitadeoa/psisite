@@ -34,7 +34,7 @@ const depoimentos = [
   },
   {
     id: 5,
-    conteudo: 'A terapia com a Dra. Talita foi fundamental para meu autoconhecimento e crescimento pessoal. Descobri a origem de meus comportamentos e aprendi a expressar meus sentimentos com clareza. Suas sessões me proporcionaram um espaço seguro para desabafar e encontrar novas perspectivas.',
+    conteudo: 'A terapia com a Talita foi fundamental para meu autoconhecimento e crescimento pessoal. Descobri a origem de meus comportamentos e aprendi a expressar meus sentimentos com clareza. Suas sessões me proporcionaram um espaço seguro para desabafar e encontrar novas perspectivas.',
     autor: 'A.C.S',
     idade: '27 anos',
   },
