@@ -30,17 +30,17 @@ function App() {
     <React.Fragment>
       <ParallaxProvider>
         <BrowserRouter>
-        <Floating>
-          <Routes>
-            <Route path="/contato" element={<Contact />} />
-            <Route path="/blog/*" element={<Articles />} />
-            <Route path="/privacidade" element={<Privacidade />} />
-            <Route path="/resources/*" element={<Resources />} />
-            <Route path="/grupos/*" element={<Groups />} />
-            <Route path="/index.html" element={<Home />} />
-            <Route path="/" element={<Home />} />
-            <Route path="*" element={<NotFound404 />} />
-          </Routes>
+          <Floating>
+            <Routes>
+              <Route path="/contato" element={<Contact />} />
+              <Route path="/blog/*" element={<Articles />} />
+              <Route path="/privacidade" element={<Privacidade />} />
+              <Route path="/resources/*" element={<Resources />} />
+              <Route path="/grupos/*" element={<Groups />} />
+              <Route path="/index.html" element={<Home />} />
+              <Route path="/" element={<Home />} />
+              <Route path="*" element={<NotFound404 />} />
+            </Routes>
           </Floating>
         </BrowserRouter>
       </ParallaxProvider>

@@ -10,31 +10,31 @@ import Typography from "../components/Typography";
 const depoimentos = [
   {
     id: 1,
-    conteudo: 'Desde que comecei a terapia com a Dra. Talita, minha vida mudou para melhor. Sua abordagem atenciosa e carinhosa me ajudou a enfrentar minhas crises de ansiedade e a desenvolver técnicas para lidar com elas. Estou muito grata por todo o apoio e orientação que tenho recebido.',
+    conteudo: '"Desde que comecei a terapia com a Dra. Talita, minha vida mudou para melhor. Sua abordagem atenciosa e carinhosa me ajudou a enfrentar minhas crises de ansiedade e a desenvolver técnicas para lidar com elas. Estou muito grata por todo o apoio e orientação que tenho recebido."',
     autor: 'C.P.L',
     idade: '31 anos',
   },
   {
     id: 2,
-    conteudo: 'Depois de ter passado por alguns profissionais, ainda não tinha entendido como a terapia é um processo transformador. Com a Talita consegui construir uma conexão e uma relação de confiança que foram de extrema importância para mim! Tem sido uma jornada de muito autoconhecimento e aprendizado, e, desde o início, me chama a atenção o quanto ela se importa e me faz sentir acolhido. Hoje, desejo que todos tenham uma Talita para que, assim como eu, se sintam encorajados a prosseguir!',
+    conteudo: '"Depois de ter passado por alguns profissionais, ainda não tinha entendido como a terapia é um processo transformador. Com a Talita consegui construir uma conexão e uma relação de confiança que foram de extrema importância para mim! Tem sido uma jornada de muito autoconhecimento e aprendizado, e, desde o início, me chama a atenção o quanto ela se importa e me faz sentir acolhido. Hoje, desejo que todos tenham uma Talita para que, assim como eu, se sintam encorajados a prosseguir!"',
     autor: 'D.M.',
     idade: '28 anos',
   },
   {
     id: 3,
-    conteudo: 'Profissional extremamente comprometida e atenciosa. Suas orientações e apoio foram cruciais para que eu conseguisse mudar minha vida. Sou grato por todo o suporte e dedicação que ela demonstrou em cada sessão. Recomendo de olhos fechados a todos que buscam uma mudança positiva em suas vidas.',
+    conteudo: '"Profissional extremamente comprometida e atenciosa. Suas orientações e apoio foram cruciais para que eu conseguisse mudar minha vida. Sou grato por todo o suporte e dedicação que ela demonstrou em cada sessão. Recomendo de olhos fechados a todos que buscam uma mudança positiva em suas vidas."',
     autor: 'V.H.C',
     idade: '33 anos',
   },
   {
     id: 4,
-    conteudo: 'Uma bondade de pessoa e uma excelente profissional. Sua competência e dedicação são evidentes em cada sessão. Ela se preocupa genuinamente com o desenvolvimento pessoal de seus pacientes, sabe ouvir e busca sempre oferecer o melhor suporte possível.',
+    conteudo: '"Uma bondade de pessoa e uma excelente profissional. Sua competência e dedicação são evidentes em cada sessão. Ela se preocupa genuinamente com o desenvolvimento pessoal de seus pacientes, sabe ouvir e busca sempre oferecer o melhor suporte possível."',
     autor: 'V.L',
     idade: '39 anos',
   },
   {
     id: 5,
-    conteudo: 'A terapia com a Talita foi fundamental para meu autoconhecimento e crescimento pessoal. Descobri a origem de meus comportamentos e aprendi a expressar meus sentimentos com clareza. Suas sessões me proporcionaram um espaço seguro para desabafar e encontrar novas perspectivas.',
+    conteudo: '"A terapia com a Talita foi fundamental para meu autoconhecimento e crescimento pessoal. Descobri a origem de meus comportamentos e aprendi a expressar meus sentimentos com clareza. Suas sessões me proporcionaram um espaço seguro para desabafar e encontrar novas perspectivas."',
     autor: 'A.C.S',
     idade: '27 anos',
   },
@@ -122,10 +122,10 @@ const DepoimentosSlider = () => {
   return (
     <Box
     component="section"
-    sx={{ backgroundImage: "url(/static/onepirate/appCurvyLines.png)", display: "flex", bgcolor: "#ffffff", overflow: "hidden" }}
+    sx={{ backgroundImage: "url(/static/onepirate/appCurvyLines.png)", display: "flex", bgcolor: "#fff", overflow: "hidden" }}
   >
     <Container 
-      sx={{ bgcolor:"#ffffff",
+      sx={{ bgcolor:"#FFF",
         mt: 10,
         mb: 5,
         alignItems: "center",
@@ -144,7 +144,6 @@ const DepoimentosSlider = () => {
               <Grid container spacing={0}>
                 <div style={slideStyle}>
                   <Grid item xs={12}>
-                      <Typography>⭐️⭐️⭐️⭐️⭐️<br/><br/></Typography>
                       <Typography variant="h5" marked="center">
                         {depoimento.conteudo}
                       </Typography>
@@ -154,6 +153,7 @@ const DepoimentosSlider = () => {
                       <Typography variant="body1" color="textSecondary">
                         {depoimento.idade}
                       </Typography>
+                      <Typography>⭐️⭐️⭐️⭐️⭐️</Typography>
                   </Grid>
                 </div>
               </Grid>
