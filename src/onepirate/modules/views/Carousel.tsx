@@ -109,7 +109,7 @@ const DepoimentosSlider = () => {
     width: '100%',
     padding: '40px',
     borderRadius: '30px',
-    background: '#FFF5F8',
+    background: '#f0f0f0',
     marginLeft: '15px',
     marginRight: '15px',
     display: 'flex',
