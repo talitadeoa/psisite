@@ -153,7 +153,7 @@ const DepoimentosSlider = () => {
                       <Typography variant="body1" color="textSecondary">
                         {depoimento.idade}
                       </Typography>
-                      <Typography><br/>⭐️⭐️⭐️⭐️⭐️</Typography>
+                      <Typography>⭐️⭐️⭐️⭐️⭐️</Typography>
                   </Grid>
                 </div>
               </Grid>
