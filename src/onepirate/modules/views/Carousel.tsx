@@ -122,10 +122,10 @@ const DepoimentosSlider = () => {
   return (
     <Box
     component="section"
-    sx={{ backgroundImage: "url(/static/onepirate/appCurvyLines.png)", display: "flex", bgcolor: "#FFF6EB", overflow: "hidden" }}
+    sx={{ backgroundImage: "url(/static/onepirate/appCurvyLines.png)", display: "flex", bgcolor: "#fff", overflow: "hidden" }}
   >
     <Container 
-      sx={{ bgcolor:"#FFF6EB",
+      sx={{ bgcolor:"#FFF",
         mt: 10,
         mb: 5,
         alignItems: "center",
@@ -144,7 +144,6 @@ const DepoimentosSlider = () => {
               <Grid container spacing={0}>
                 <div style={slideStyle}>
                   <Grid item xs={12}>
-                      <Typography>⭐️⭐️⭐️⭐️⭐️<br/><br/></Typography>
                       <Typography variant="h5" marked="center">
                         {depoimento.conteudo}
                       </Typography>
@@ -154,6 +153,7 @@ const DepoimentosSlider = () => {
                       <Typography variant="body1" color="textSecondary">
                         {depoimento.idade}
                       </Typography>
+                      <Typography><br/>⭐️⭐️⭐️⭐️⭐️</Typography>
                   </Grid>
                 </div>
               </Grid>
