@@ -34,17 +34,17 @@ function Contact() {
             bgcolor: 'background.paper',
           }}
         >
-          <ListItem>
-            <ListItemButton component="a" href="mailto:talitadeoa@gmail.com">
+        { /*  <ListItem>
+                <ListItemButton component="a" href="mailto:talitadeoa@gmail.com">
               <ListItemAvatar>
                 <Avatar>
                   <EmailRounded />
                 </Avatar>
               </ListItemAvatar>
               <ListItemText primary="Envie um e-mail" secondary="talitadeoa@gmail.com" />
-            </ListItemButton>
+                </ListItemButton> 
           </ListItem>
-          <Divider variant="inset" component="li" />
+          <Divider variant="inset" component="li" />*/}
           <ListItem>
             <ListItemButton component="a" href="tel:+5584998026288">
               <ListItemAvatar>
